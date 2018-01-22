@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentNearby">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGray"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp">
+
+            <TextView
+                android:id="@+id/title_carnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="车牌"/>
+
+            <TextView
+                android:id="@+id/title_carowner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="车主"/>
+
+            <TextView
+                android:id="@+id/title_carstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="状态"/>
+
+            <TextView
+                android:id="@+id/title_timescaned"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:text="扫描次数"/>
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/btn_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"/>
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_below="@id/title_layout"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:max="100"
+            android:min="0"
+            android:progress="50"/>
+
+        <ListView
+            android:layout_below="@id/pb"
+            android:layout_above="@id/btn_refresh"
+            android:id="@+id/nearby_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+        </ListView>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+>
+
+            <TextView
+                android:id="@+id/owner"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="车主"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/owner"
+                android:background="@color/colorGray">
+
+                <TextView
+                    android:id="@+id/tv_owner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:text="张三"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/carnumber"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="车牌"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/carnumber"
+                android:background="@color/colorGray">
+
+                <TextView
+                    android:id="@+id/tv_carnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@color/colorWhite"
+                    android:layout_margin="1dp"
+                    android:text="粤B5743"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

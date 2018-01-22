@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/im2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/owner"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="车主" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/owner"
+            android:background="@color/colorGray">
+
+            <TextView
+                android:id="@+id/tv_detail_owner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="张三" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/carnumber"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="车牌" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/carnumber"
+            android:background="@color/colorGray">
+
+            <TextView
+                android:id="@+id/tv_detail_carnumber"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="粤B5743" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/brand"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:text="品牌" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/brand"
+            android:background="@color/colorGray">
+
+            <TextView
+                android:id="@+id/tv_brand"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="欧耶" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/cartype"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="车辆类型" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/cartype"
+            android:background="@color/colorGray">
+
+            <TextView
+                android:id="@+id/tv_cartype"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="摩托车" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/contract"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="联系方式" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/contract"
+            android:background="@color/colorGray">
+
+            <TextView
+                android:id="@+id/tv_contract"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="134xxxxxxx" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/paper"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="证件" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/paper"
+            android:background="@color/colorGray">
+
+            <TextView
+                android:id="@+id/tv_certificate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="身份证:459335569732" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/date_purchase"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="购买时间" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/date_purchase"
+            android:background="@color/colorGray">
+
+            <TextView
+                android:id="@+id/tv_date_purchase"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="201503" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/location_now"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="当前位置" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/location_now"
+            android:background="@color/colorGray">
+
+            <TextView
+                android:id="@+id/tv_location_now"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="N13.5,E25.7" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:text="历史信息" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorGray">
+
+            <ListView
+                android:id="@+id/lv_history"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:layout_margin="1dp">
+
+            </ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

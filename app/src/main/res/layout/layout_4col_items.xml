@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/selector_list_item"
+    android:minHeight="40dp">
+
+
+    <TextView
+        android:id="@+id/tv_col0"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginRight="1dp"
+        android:textSize="16sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_col1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginRight="1dp"
+        android:paddingLeft="5dp"
+        android:textSize="16sp"
+        android:layout_weight="1"/>
+
+
+    <TextView
+        android:id="@+id/tv_col2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginRight="1dp"
+        android:paddingLeft="5dp"
+        android:textSize="16sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_col3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginRight="1dp"
+        android:paddingLeft="5dp"
+        android:textSize="16sp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
